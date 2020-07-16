@@ -21,6 +21,10 @@ const port = process.env.port || 3000;
 app.get('/', (req, res) => {
 	res.render('index.ejs');
 });
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of d175715... twitter output testing
 app.get('/contact', (req, res) => {
 	res.render('contact.ejs');
 });
